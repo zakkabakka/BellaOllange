@@ -1,0 +1,108 @@
+header {
+    width: 100%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listNav {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listNav li {
+    list-style: none;
+}
+
+.bannier {
+    background: url('img/titre.png');
+    width: 100%;
+    background-size: cover;
+    height: 590px;
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.bannier h3 {
+    margin: 0;
+}
+
+.product {
+    width: 100%;
+}
+
+.product h2 {
+    text-align: center;
+}
+
+
+.pizzaDivParents {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pizza {
+    width: 30%;
+    border: 2px solid orangered;
+}
+
+.pizza img {
+    width: 100%;
+}
+
+.pizza button {
+    width: 100%;
+    background-color: orangered;
+    width: 100px;
+    border-radius: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pizza button a {
+    color: aliceblue;
+}
+
+hr {
+    width: 70%;
+    margin-top: 50px;
+}
+
+.problem {
+    margin-left: 10px;
+    font-family: Poppins;
+}
+
+.problem h2 {
+    font-size: 36px;
+    margin-top: 150px;
+
+}
+
+.problem p {
+    font-size: 24px;
+    color: #786666;
+    margin-bottom: 150px;
+}
+
+.bannierFooter {
+    background: url('img/footer.png');
+    width: 100%;
+    background-size: cover;
+    height: 380px;
+    color: white;
+    text-align: center;
+    font-size: xxx-large;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
